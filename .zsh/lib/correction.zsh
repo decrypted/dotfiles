@@ -1,4 +1,7 @@
-setopt correct_all
+#setopt correct_all
+#only correct commands
+unsetopt correct_all  
+setopt correct
 
 alias cap='nocorrect cap'
 alias man='nocorrect man'
